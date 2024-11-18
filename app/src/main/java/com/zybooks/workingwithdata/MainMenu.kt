@@ -29,5 +29,10 @@ class MainMenu : AppCompatActivity() {
             var intent = Intent(this, NasaAPI::class.java)
             startActivity(intent)
         }
+        var apiResultButton = findViewById<Button>(R.id.New_View_Button)
+        apiResultButton.setOnClickListener {
+            var intent = Intent(this, DataOut::class.java)
+            startActivity(intent)
+        }
     }
 }
