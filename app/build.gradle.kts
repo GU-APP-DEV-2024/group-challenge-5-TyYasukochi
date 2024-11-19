@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.zybooks.workingwithdata"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.zybooks.workingwithdata"
